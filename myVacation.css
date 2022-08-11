@@ -1,0 +1,48 @@
+body {
+    background-image: url(./photos/background.jpg);
+    background-repeat: no-repeat;
+}
+
+.header {
+    font-family: 'Cinzel Decorative';font-size: 55px;
+    text-shadow: 3px 3px gray;
+}
+
+td {
+    padding: 0px 25px 100px 25px;
+}
+
+.center {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
+
+img {
+    padding: none;
+    width: 500px;
+}
+
+.pic-div {
+    height: 425px;
+    width: 500px;
+    background-color: white;
+    padding: none;
+    box-shadow: 10px 10px 5px #707070;
+}
+
+.pic-div h4 {
+    padding: none;
+    margin-top: 5px;
+}
+
+.pic-div figcaption {
+    padding: none;
+    margin-top: -10px;
+}
+
+.hide {
+    display: none;
+}
+

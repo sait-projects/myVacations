@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="myVacation.css" />
+    <script src="./myVacation.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Cinzel Decorative"
+      rel="stylesheet"
+    />
+    <title>My Vacation</title>
+  </head>
+  <body>
+    <div class="center">
+      <h1 class="header">My Vacation Photos</h1>
+      <table>
+        <tr>
+          <td>
+            <figure class="pic-div" onclick="displayTitle('picTitle1')">
+              <img src="./photos/Amsterdam.jpg" alt="Amsterdam" />
+              <div class="hide" id="picTitle1">
+                <h4>Amsterdam, Netherlands</h4>
+                <figcaption>
+                  Beautiful stroll by the river of the Netherlands.
+                  Extraordinary foods, great time with friends, unforgettable
+                  views.
+                </figcaption>
+              </div>
+            </figure>
+          </td>
+          <td>
+            <figure class="pic-div" onclick="displayTitle('picTitle2')">
+              <img src="./photos/China.jpg" alt="China" />
+              <div class="hide" id="picTitle2">
+                <h4>Shanghai, China</h4>
+                <figcaption>
+                  Beautiful city surrounded tall towers like the Shanghai tower
+                  and is China's global financial hub.
+                </figcaption>
+              </div>
+            </figure>
+          </td>
+          <td>
+            <figure
+              id="pic3Caption"
+              class="pic-div"
+              onclick="displayTitle('picTitle3')"
+            >
+              <img src="./photos/Vancouver.jpg" alt="Vancouver" />
+              <div class="hide" id="picTitle3">
+                <h4>Vancouver, Canada</h4>
+                <figcaption>
+                  Vancouver is one of the most beautiful cities in Canada. With
+                  mountains and the ocean it has some of the most amazing views.
+                </figcaption>
+              </div>
+            </figure>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <figure
+              id="pic4Caption"
+              class="pic-div"
+              onclick="displayTitle('picTitle4')"
+            >
+              <img src="./photos/Japan.jpg" alt="Japan" />
+              <div class="hide" id="picTitle4">
+                <h4>Kyoto, Japan</h4>
+                <figcaption>
+                  Japan is full of culture, amazing food, and an experience that
+                  everyone should try once in there life.
+                </figcaption>
+              </div>
+            </figure>
+          </td>
+          <td>
+            <figure class="pic-div" onclick="displayTitle('picTitle5')">
+              <img src="./photos/Mexico.jpg" alt="Mexico" />
+              <div class="hide" id="picTitle5">
+                <h4>Cancun, Mexico</h4>
+                <figcaption>
+                  Cancun is a place of relaxation and serenity. Here you listen
+                  to the ocean waves and enjoy all the alcohol you can drink.
+                </figcaption>
+              </div>
+            </figure>
+          </td>
+          <td>
+            <figure class="pic-div" onclick="displayTitle('picTitle6')">
+              <img src="./photos/NewYork.jpg" alt="NewYork" />
+              <div class="hide" id="picTitle6">
+                <h4>New York, USA</h4>
+                <figcaption>
+                  Where the NYSE exist and a world of finance meets broadway.
+                  This is the city that never sleeps.
+                </figcaption>
+              </div>
+            </figure>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
